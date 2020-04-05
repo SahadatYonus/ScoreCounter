@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Yonus Sahadat">
+    <link rel="stylesheet" href="assets/CSS.css">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Patrick+Hand&display=swap" rel="stylesheet">
+    <title>Score Keeper</title>
+</head>
+<body>
+
+    <div class="info">
+        <div class="names" >
+            <h1 style="grid-area: h1;">Welcome to your score keeper!</h1>
+            <p style="grid-area: p1;">Please enter Player-01 name...</p>
+            <input type="text" name="player1" placeholder="For example, John..." style="grid-area: input1;">
+            <p style="grid-area: p2;">Please enter Player-02 name...</p>
+            <input type="text" name="player2" placeholder="For example, Jack..." style="grid-area: input2;">
+            <button style="grid-area: button; align-self: flex-start;">Let's go!</button>
+        </div>
+    </div> 
+
+    <div id="container">
+        <div class="header">
+            <h1>Who is the winner?</h1>
+        </div>
+        <div class="score">
+            <p class="points"><span class="p1-score">0</span> to <span class="p2-score">0</span></p>
+        </div>
+        <div class="score-settings">
+            <input type="number" min="01" step="1" placeholder="Winning Score..." style="width: 12vmax; cursor: auto;box-shadow: inset 0 0 2px 2px rgba(0, 0, 0, 0.5);">
+            <button class="p1">Player 1</button>
+            <button class="p2">Player 2</button>
+            <button type="reset">Reset</button>
+        </div>
+    </div>
+
+    <div class="wrapper">
+        <div class="congrats">
+            <h1></h1>
+            <p>You are the winner!</p>
+            <button class="replay">Replay</button>
+            <button class="exit">Exit</button>
+        </div>
+    </div>
+
+    <footer>
+        <p style="font-size: 1vmax; position: relative; z-index: -10; color: gray;">&copy; 2020 - Yonus Sahadat</p>
+    </footer>
+    
+    <script src="assets/JS.js"></script>
+
+</body>
+</html>
