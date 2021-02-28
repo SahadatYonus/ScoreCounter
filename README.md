@@ -1,37 +1,15 @@
-## Welcome to GitHub Pages
+# Score Counter
 
-You can use the [editor on GitHub](https://github.com/SahadatYonus/ScoreKeeper/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## About
+I created this application in Spring of 2020 alongside mt Todo List application when I started learning Web Development on my own. It was a project by Web Development course in Udemy instructed by Colt Steele. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The Score Counter Web Application helps two people count their scores of how many times each won when playing a match. It can be a sport like Football or a card game like UNO. 
 
-### Markdown
+## Languages 
+Languages used for this app are HTML/CSS and JavaScript.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Challenges/What I learnt 
+1- Responsiveness has always been a great challenge. Even though using vh and vw worked for my other project, I think it was not useful for this project.
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/SahadatYonus/ScoreKeeper/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Further Improvement 
+1- Turning this Web Application to an iOS application would be a good idea. 
